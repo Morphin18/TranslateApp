@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+            android:id="@+id/MyScreenTextOne"
+            android:autofillHints=""
+            android:gravity="top|start"
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#32C5C5C5"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/TextTranslate"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            tools:ignore="LabelFor"
+            tools:targetApi="o"/>
+
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#32C5C5C5"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/MyScreenTextOne"
+            tools:targetApi="lollipop"/>
+
+</RelativeLayout>
